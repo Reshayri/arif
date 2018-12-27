@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple calculator</title>
+    <script src="NowCalc.js" defer></script>
+	<link href="NowCalc.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	
+
+    <h1 align="center"> simple calculator</h1>
+    <hr/ size="5" color="red">
+	
+		<form action="/action_page.php" >
+			<!--Окна ввода --->
+			<p> Input number 1 <input class="in" type="number" id="n1" size="3" maxlength="5"  value="0"/></p>  <!-- окно ввода числа1 -->
+			<p> Input number 2 <input class="in"type="number" id="n2" size="3" maxlength="5"  value="0"/> </p> <!-- окно ввода числа2 -->
+			<p><button class="but"  onclick="plus()" >&nbsp;+&nbsp;</button> <!--Кнопка плюс --->
+			   <button class="but" onclick="minus()"> &nbsp; - &nbsp; </button> 
+			   <button class="but" onclick="multi()">&nbsp; X &nbsp;</button> 
+			   <button class="but" onclick="dif()"> &nbsp;/&nbsp; </button>  
+			   <button class="but" onclick="sqrt()">SQRT</button> &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; <input  type="reset" value="Reset" class="but" />  </p> 
+			  
+			  <!---INPUT BUTTON --->
+			   
+		</form>
+			<hr size="3" color="blue"/> <!--Horizon row -->
+			<p id="out" style="colour:blue ">RESULT </p> <!-- окно вывода результата -->
+		
+		
+		
+	
+	   
+
+</body>
+</html>
